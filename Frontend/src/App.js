@@ -37,7 +37,7 @@ function App() {
     <div className="container mx-auto ">
               {isClicked && (
           <div
-            className="fixed right-0 flex flex-col cursor-not-allowed justify-between popUp py-5 h-full sm:w-[30%] w-full align-bottom profile-popup text-sm"
+            className="fixed right-0 flex flex-col cursor-not-allowed justify-between popUp py-5 sm:h-full h-3/4 sm:w-[30%]  w-full align-bottom profile-popup text-sm"
             onClick={(e) => togleClicked()}
           > 
             
