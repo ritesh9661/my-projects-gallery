@@ -1,8 +1,8 @@
 const express = require('express')
 const mongoose =require('mongoose')
-
  
 const app=express()
+// const url = `mongodb+srv://${dbData.username}:${dbData.pass}@cluster0.sxavqzw.mongodb.net/${dbData.dbName}?retryWrites=true&w=majority`;
 mongoose.connect("mongodb+srv://kritesh5march:Ritesh123@cluster0.3obfhzu.mongodb.net/crud")
 
 const UserSchema=new mongoose.Schema({
