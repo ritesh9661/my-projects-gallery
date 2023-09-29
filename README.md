@@ -23,15 +23,7 @@ Welcome to the My Projects Gallery web application, a platform designed to showc
     npm install
     ```
 
-3. **Configure Environment Variables:**
-
-    Create a `.env` file in the root directory and provide the following variables:
-
-    ```plaintext
-    REACT_APP_API_BASE_URL=<backend_api_base_url>
-    ```
-
-4. **Start the Frontend:**
+3. **Start the Frontend:**
 
     ```bash
     npm start
@@ -39,7 +31,7 @@ Welcome to the My Projects Gallery web application, a platform designed to showc
 
     Access the application at `http://localhost:3000`.
 
-5. **Start the Backend:**
+4. **Start the Backend:**
 
     Ensure the backend code and API are set up using Node.js. Start the backend server.
 
@@ -73,4 +65,3 @@ Welcome to the My Projects Gallery web application, a platform designed to showc
 ## Acknowledgments
 
 We extend our gratitude to the development communities and contributors behind React.js, Tailwind CSS, Node.js, and MongoDB. Their dedication has empowered us to create this compelling and sophisticated project showcase platform.
-
